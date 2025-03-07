@@ -8,5 +8,6 @@ while num!=guess :
         print("Think lesser...")
     else :
         print("Think higher...")
+    guess = int(input("Enter a number again : "))
 
 print("You Won !")
